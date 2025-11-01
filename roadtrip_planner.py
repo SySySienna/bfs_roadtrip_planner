@@ -19,8 +19,9 @@ if start_state==end_state:
 else:
     path = (bfs_path(usa_map, start_state, end_state))
     if path: 
-        st.write("\n".join(path))
+        st.write(" -> ".join(path))
     else:
         st.error("The system broke down. Just take an airplane!!!!")
+
 
 
