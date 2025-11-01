@@ -21,7 +21,8 @@ else:
     if path: 
         st.write(" -> ".join(path))
     else:
-        st.error("The system broke down. Just take an airplane!!!!")
+        st.error("You have to take an airplane!")
+
 
 
 
